@@ -1,0 +1,160 @@
+/* Estilos para el menú lateral */
+
+body {
+
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: #1e1e1e;
+    width: 250px; /* Ancho de la barra lateral */
+    height: 100%;
+    position: fixed;
+    left: 0;
+    
+    
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    border-bottom: 1px solid #555;
+}
+
+nav a {
+    display: block;
+    padding: 40px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+nav li ul {
+    display: none;
+    position: relative;
+    left: 0;
+    background-color: #333;
+    padding: 10px;
+    min-width: 200px;
+        }
+
+        nav li:hover ul {
+            display: block;
+        }
+nav li ul a {
+            font-size: 13px;
+            padding: 5px 0;
+        }
+
+        nav li ul li {
+            margin-right: 0;
+        }
+
+/* Estilos para el contenido principal */
+main {
+    margin-left: 250px; /* Ancho de la barra lateral */
+    padding: 20px;
+
+
+
+}
+
+.barra-superior {
+            background-color: #0097B2; /* Color de fondo */
+            color: white; /* Color del texto */
+            
+            text-align: left; /* Alineación del texto */
+            font-size: 13px; /* Tamaño de letra */
+            font-weight: bold; /* Grosor del texto */
+            position: fixed; /* Fijar la posición */
+            top: 0; /* Arriba */
+            left: 0; /* Izquierda */
+            right: 0; /* Derecha */
+            z-index: 999; /* Capa superior */
+            
+            font-family: sans-serif;
+
+
+        }
+
+
+
+.info-pantalla {
+
+
+   margin-top: 10%;
+}
+
+.container {
+
+            display: flex;
+           padding: 10%;
+            align-items: center;
+            justify-content: center;
+           
+        
+
+}
+
+.btn {
+
+
+display: block;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: bold;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-bottom: 16px;
+            margin: 2%;
+
+}
+
+.logotipo {
+
+ width: 100%;
+
+}
+
+.columna {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+      .clear {
+        clear: both;
+      }
+
+.columna-menu 
+{
+        float: left;
+        width: 50%;
+    
+        box-sizing: border-box;
+      }
+      .clear {
+        clear: both;
+      }
+
+
+
+.Imagensaludo {
+
+
+    max-width: 200%;
+    width:auto;
+    height:auto;
+
+}
